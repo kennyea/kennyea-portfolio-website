@@ -33,7 +33,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-36 w-24 rounded-full border-[0.35rem] border-white object-cover"
+              className="h-48 w-32 rounded-full border-[0.35rem] border-white object-cover"
             />
             <motion.span
               className="absolute bottom-0 left-0 text-4xl"
@@ -65,7 +65,7 @@ export default function Intro() {
         </div>
       </div>
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-12 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
