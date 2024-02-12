@@ -35,28 +35,34 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Graduated Codesmith bootcamp",
+    location: "Los Angeles, CA",
+    description: "Graduated after 6 months of studying",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Front-End Engineer @ CS Engineering",
+    location: "Los Angeles, CA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked as a Front-End Engineer for 1 year. My stack included React, JavaScript, PostgreSQL, and Jest/React Testing Library",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021-2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front-End Engineer @ Sketch & Etch",
+    location: "Los Angeles",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Joined the Sketch & Etch team as a Founding Engineer. My stack included React, JavaScript, Shopify Plus, and LiquidJS",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2023 - Mar 2023",
+  },
+  {
+    title: "Front-End Engineer @ CS Engineering",
+    location: "Los Angeles",
+    description: "Rejoined the team under contract",
+    icon: React.createElement(CgWorkAlt),
+    date: "Mar 2023 - Current",
   },
 ] as const;
 
