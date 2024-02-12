@@ -28,11 +28,12 @@ export default function About() {
         <span className="italic">next level</span> by enrolling in a coding
         bootcamp and learning{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I've{" "}
+        <span className="italic">My favorite parts of programming</span> are the
+        problem-solving aspect and magic of creating something new. I've{" "}
         <span className="underline font-medium">loved</span> puzzles ever since
-        I was a kid, and the feeling of figuring out a solution to a problem
-        brings me so much excitement. My core stack is{" "}
+        I was a kid, and the feeling of figuring out a solution to a problem,
+        including creating something from nothing brings me so much excitement.
+        My core stack is{" "}
         <span className="font-medium">
           JavaScript, React, Express, and MongoDB
         </span>
