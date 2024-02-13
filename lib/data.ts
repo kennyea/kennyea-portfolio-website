@@ -3,6 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import overvue from "@/public/overvue.png";
+import pockets from "@/public/pockets.png";
+import subr from "@/public/SUBr1.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -35,11 +37,19 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Codesmith bootcamp",
+    title: "Front-End Engineer @ CS Engineering",
     location: "Los Angeles, CA",
-    description: "Graduated after 6 months of studying",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021",
+    description: "Rejoined the team under contract",
+    icon: React.createElement(CgWorkAlt),
+    date: "Mar 2023 - Current",
+  },
+  {
+    title: "Front-End Engineer @ Sketch & Etch",
+    location: "Los Angeles, CA",
+    description:
+      "Joined the Sketch & Etch team as a Founding Engineer. My stack included React, JavaScript, Shopify Plus, and LiquidJS",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2023 - Mar 2023",
   },
   {
     title: "Front-End Engineer @ CS Engineering",
@@ -50,19 +60,11 @@ export const experiencesData = [
     date: "2021-2022",
   },
   {
-    title: "Front-End Engineer @ Sketch & Etch",
-    location: "Los Angeles",
-    description:
-      "Joined the Sketch & Etch team as a Founding Engineer. My stack included React, JavaScript, Shopify Plus, and LiquidJS",
-    icon: React.createElement(CgWorkAlt),
-    date: "Jan 2023 - Mar 2023",
-  },
-  {
-    title: "Front-End Engineer @ CS Engineering",
-    location: "Los Angeles",
-    description: "Rejoined the team under contract",
-    icon: React.createElement(CgWorkAlt),
-    date: "Mar 2023 - Current",
+    title: "Graduated Codesmith bootcamp",
+    location: "Los Angeles, CA",
+    description: "Graduated after 6 months of studying",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021",
   },
 ] as const;
 
@@ -79,14 +81,14 @@ export const projectsData = [
     description:
       "A budget tracking system that records your daily/monthly spending",
     tags: ["React", "JavaScript", "ChartJS", "PostgreSQL"],
-    imageUrl: rmtdevImg,
+    imageUrl: pockets,
   },
   {
     title: "SUBr",
     description:
       "A subscription management system that allows users to manage all of their subscriptions in one place",
     tags: ["React", "JavaScript", "Express", "MongoDB"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: subr,
   },
 ] as const;
 
